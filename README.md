@@ -28,13 +28,13 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 - choose between quarter-, eighth-, sixteenth- or thirty-second-notes
 
 **OSC_Bar_Send** *Audio-Effect*
-- send the bar the is currently playing
+- send the bar that is currently playing
 
 **OSC_MIDI_Send** *MIDI-Effect*
 - send currently playing MIDI-notes (pitch and velocity)
 
 **OSC_Automation_Send** *Audio-Effect*
-- send dan Automation specifically made for this device
+- send an Automation specifically made for this device
 - choose between three knobs and one button
 
 <br/>
@@ -59,4 +59,4 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 <br/>
 
 [^1]: The host is set to *127.0.0.1* and the port is set to *5555* by default.
-[^2]: Only *int* and *foat* is possible at the moment.
+[^2]: Only *int* and *float* is supported at the moment.
