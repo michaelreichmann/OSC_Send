@@ -13,7 +13,7 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 - sends the Scene that is currently playing 
 - works in Session View
 
-**OSC_Locator_Send** *Audio-Effect*
+**OSC_Locator_Send**[^3] *Audio-Effect*
 - sends the last locator
 - sends the remaining quarter-notes until the next locator
 - works in Arrangement View
@@ -60,3 +60,4 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 
 [^1]: The host is set to *127.0.0.1* and the port is set to *5555* by default.
 [^2]: Only *int* and *float* is supported at the moment.
+[^3]: Part of this devices is taken from [this thread in the Cycling'74 forum.](https://cycling74.com/forums/is-it-possible-to-print-the-name-of-a-locator-as-the-playhead-passes-by-in-max)
