@@ -9,6 +9,8 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 #### The collection consists of six devices:
 #### Live Set Specific
 ##### *Devices sending information about the Set*.
+![image](/pictures/setSpecific.png)
+
 **OSC_Scene_Send** *Audio-Effect*
 - sends the Scene that is currently playing 
 - works in Session View
@@ -23,6 +25,8 @@ This collection of Max for Live Devices sends information about a Live-Set and i
 #### Track Specific
 ##### *Devices sending information about the track they are on.*
 ##### The message automatically includes the Trackname.
+![image](/pictures/trackSpecific.png)
+
 **OSC_Beat_Send** *Audio-Effect*
 - sends the current beat/note within one bar
 - choose between quarter-, eighth-, sixteenth- or thirty-second-notes
